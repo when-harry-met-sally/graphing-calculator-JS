@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style/calculator.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="screen">0</div>
+      <div id="buttons">
+        <div data-key="var" class="button memory var">var</div>
+        <div data-key="graph" class="button memory">graph</div>
+        <div data-key="z+" class="button memory"><i data-key="z+" class="fas fa-search-plus"></i></div>
+        <div data-key="z-" class="button memory"><i data-key="z-" class="fas fa-search-minus"></i></div>
+
+        <div data-key="var" class="button memory var"></div>
+        <div data-key="graph" class="button memory"></div>
+        <div data-key="z+" class="button memory"></div>
+        <div data-key="clear" class="button memory">clear</div>
+
+        <div data-key="7" class="button">7</div>
+        <div data-key="8" class="button">8</div>
+        <div data-key="9" class="button">9</div>
+        <div data-key="+" class="button function">&plus;</div>
+        
+        <div data-key="4" class="button">4</div>
+        <div data-key="5" class="button">5</div>
+        <div data-key="6" class="button">6</div>
+        <div data-key="-" class="button function">&minus;</div>
+
+        <div data-key="1" class="button">1</div>
+        <div data-key="2" class="button">2</div>
+        <div data-key="3" class="button">3</div>
+        <div data-key="*" class="button function">&times;</div>
+
+        <div data-key="." class="button">&period;</div>
+        <div data-key="0" class="button">0</div>
+        <div data-key="=" class="button">&equals;</div>
+        <div data-key="/" class="button function">&divide;</div>
+      </div>
+    </div>
+    <div id="frame">
+      <div id="graph">
+        
+      </div>
+    </div>
+
+    <div id="test"></div>
+    <script src="script/calculator.js"></script>
+  </body>
+</html>
